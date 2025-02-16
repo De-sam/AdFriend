@@ -1,0 +1,147 @@
+/* Reset basic elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  html, body {
+    /* Force the popup to be at least 600px wide */
+    min-width: 600px;
+    /* Optionally, set a fixed width */
+    /* width: 600px; */
+    margin: 0;
+    padding: 0;
+  }
+    
+  /* Overall page background */
+  body {
+    background-color: #FFF6F0; /* Light peach */
+    padding: 20px;
+  }
+  
+  /* Container to center the card and give it more width */
+  .container {
+    max-width: 1000px;  /* Increase max-width for a wider view */
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  /* Card styling */
+  .card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  /* Heading style with blue accent */
+  .card h1 {
+    text-align: center;
+    color: #2B7A78; /* Muted blue */
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  /* Two-column grid for options with extra gap */
+  .options-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;  /* Increased gap for extra spacing */
+    margin-bottom: 20px;
+  }
+  
+  /* Option label styling */
+  .options-grid label {
+    background-color: #FAD7A0; /* Soft peach */
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for options */
+  .options-grid label:hover {
+    background-color: #F8C471;
+  }
+  
+  /* Checkbox styling */
+  .options-grid input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+  }
+  
+  /* Submit button styling */
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2B7A78;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Button hover state */
+  button[type="submit"]:hover {
+    background-color: #246E6D;
+  }
+
+  /* ✅ Global Styles for Widgets */
+.widget-container {
+  background: linear-gradient(to right, #ffffff, #f7f7f7);
+  border-radius: 12px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 320px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.widget-container:hover {
+  transform: scale(1.03);
+}
+
+.widget-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.widget-content {
+  font-size: 14px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.widget-footer {
+  font-size: 12px;
+  color: #888;
+  margin-top: 10px;
+  text-align: right;
+}
+
+/* ✅ Button Styles */
+.widget-button {
+  display: inline-block;
+  background: transparent;
+  color: #333;
+  border: 1px solid #555;
+  padding: 5px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.2s ease-in-out;
+}
+
+.widget-button:hover {
+  background: #333;
+  color: #fff;
+}
+
+  

@@ -1,0 +1,602 @@
+[
+    {
+        "language": "Python",
+        "question": "What will be the output of the following Python code?\n\n```python\nx = [1, 2, 3]\ny = x\ny.append(4)\nprint(x)\n```",
+        "choices": {
+            "A": "[1, 2, 3]",
+            "B": "[1, 2, 3, 4]",
+            "C": "[4, 1, 2, 3]",
+            "D": "Error"
+        },
+        "correct": "B",
+        "explanation": "Since `y` is a reference to `x`, modifying `y` also modifies `x`."
+    },
+    {
+        "language": "JavaScript",
+        "question": "What will be logged to the console?\n\n```js\nconsole.log(typeof NaN);\n```",
+        "choices": {
+            "A": "'undefined'",
+            "B": "'number'",
+            "C": "'NaN'",
+            "D": "'object'"
+        },
+        "correct": "B",
+        "explanation": "`NaN` is actually considered a number in JavaScript."
+    },
+    {
+        "language": "HTML",
+        "question": "Which HTML tag is used to create a hyperlink?",
+        "choices": {
+            "A": "<link>",
+            "B": "<a>",
+            "C": "<href>",
+            "D": "<url>"
+        },
+        "correct": "B",
+        "explanation": "The `<a>` tag is used to define a hyperlink in HTML."
+    },
+    {
+        "language": "CSS",
+        "question": "What is the correct way to apply a class in CSS?",
+        "choices": {
+            "A": "element.class { }",
+            "B": ".class { }",
+            "C": "#class { }",
+            "D": "@class { }"
+        },
+        "correct": "B",
+        "explanation": "CSS class selectors are prefixed with a dot (`.`)."
+    },
+    {
+        "language": "Java",
+        "question": "Which keyword is used to define a class in Java?",
+        "choices": {
+            "A": "define",
+            "B": "struct",
+            "C": "class",
+            "D": "new"
+        },
+        "correct": "C",
+        "explanation": "The `class` keyword is used to define a class in Java."
+    },
+    {
+        "language": "C#",
+        "question": "Which of these is a correct way to declare a variable in C#?",
+        "choices": {
+            "A": "var x = 10;",
+            "B": "x = 10;",
+            "C": "int x := 10;",
+            "D": "let x = 10;"
+        },
+        "correct": "A",
+        "explanation": "`var x = 10;` is valid syntax for declaring a variable in C#."
+    },
+    {
+        "language": "JavaScript",
+        "question": "What is the output of `console.log(2 + '2')` in JavaScript?",
+        "choices": {
+            "A": "22",
+            "B": "4",
+            "C": "NaN",
+            "D": "Error"
+        },
+        "correct": "A",
+        "explanation": "JavaScript converts numbers to strings when using `+` with a string."
+    },
+    {
+        "language": "Java",
+        "question": "How do you declare a constant in Java?",
+        "choices": {
+            "A": "final int x = 10;",
+            "B": "const x = 10;",
+            "C": "static x = 10;",
+            "D": "let x = 10;"
+        },
+        "correct": "A",
+        "explanation": "The `final` keyword defines a constant in Java."
+    },
+    {
+        "language": "CSS",
+        "question": "Which property is used to change text color in CSS?",
+        "choices": {
+            "A": "color",
+            "B": "text-color",
+            "C": "font-color",
+            "D": "foreground"
+        },
+        "correct": "A",
+        "explanation": "The `color` property changes text color."
+    },
+    {
+        "language": "CSS",
+        "question": "Which property is used to change text color in CSS?",
+        "choices": {
+            "A": "color",
+            "B": "text-color",
+            "C": "font-color",
+            "D": "foreground"
+        },
+        "correct": "A",
+        "explanation": "The `color` property changes text color."
+    },
+    {
+        "language": "Java",
+        "question": "How do you declare a constant in Java?",
+        "choices": {
+            "A": "final int x = 10;",
+            "B": "const x = 10;",
+            "C": "static x = 10;",
+            "D": "let x = 10;"
+        },
+        "correct": "A",
+        "explanation": "The `final` keyword defines a constant in Java."
+    },
+    {
+        "language": "Java",
+        "question": "How do you declare a constant in Java?",
+        "choices": {
+            "A": "final int x = 10;",
+            "B": "const x = 10;",
+            "C": "static x = 10;",
+            "D": "let x = 10;"
+        },
+        "correct": "A",
+        "explanation": "The `final` keyword defines a constant in Java."
+    },
+    {
+        "language": "Python",
+        "question": "What does `==` check in Python?",
+        "choices": {
+            "A": "Reference equality",
+            "B": "Value equality",
+            "C": "Both",
+            "D": "Neither"
+        },
+        "correct": "B",
+        "explanation": "`==` checks if values are equal, while `is` checks reference equality."
+    },
+    {
+        "language": "JavaScript",
+        "question": "What is the output of `console.log(2 + '2')` in JavaScript?",
+        "choices": {
+            "A": "22",
+            "B": "4",
+            "C": "NaN",
+            "D": "Error"
+        },
+        "correct": "A",
+        "explanation": "JavaScript converts numbers to strings when using `+` with a string."
+    },
+    {
+        "language": "JavaScript",
+        "question": "What is the output of `console.log(2 + '2')` in JavaScript?",
+        "choices": {
+            "A": "22",
+            "B": "4",
+            "C": "NaN",
+            "D": "Error"
+        },
+        "correct": "A",
+        "explanation": "JavaScript converts numbers to strings when using `+` with a string."
+    },
+    {
+        "language": "JavaScript",
+        "question": "What is the output of `console.log(2 + '2')` in JavaScript?",
+        "choices": {
+            "A": "22",
+            "B": "4",
+            "C": "NaN",
+            "D": "Error"
+        },
+        "correct": "A",
+        "explanation": "JavaScript converts numbers to strings when using `+` with a string."
+    },
+    {
+        "language": "CSS",
+        "question": "Which property is used to change text color in CSS?",
+        "choices": {
+            "A": "color",
+            "B": "text-color",
+            "C": "font-color",
+            "D": "foreground"
+        },
+        "correct": "A",
+        "explanation": "The `color` property changes text color."
+    },
+    {
+        "language": "Python",
+        "question": "What does `==` check in Python?",
+        "choices": {
+            "A": "Reference equality",
+            "B": "Value equality",
+            "C": "Both",
+            "D": "Neither"
+        },
+        "correct": "B",
+        "explanation": "`==` checks if values are equal, while `is` checks reference equality."
+    },
+    {
+        "language": "JavaScript",
+        "question": "What is the output of `console.log(2 + '2')` in JavaScript?",
+        "choices": {
+            "A": "22",
+            "B": "4",
+            "C": "NaN",
+            "D": "Error"
+        },
+        "correct": "A",
+        "explanation": "JavaScript converts numbers to strings when using `+` with a string."
+    },
+    {
+        "language": "Python",
+        "question": "What does `==` check in Python?",
+        "choices": {
+            "A": "Reference equality",
+            "B": "Value equality",
+            "C": "Both",
+            "D": "Neither"
+        },
+        "correct": "B",
+        "explanation": "`==` checks if values are equal, while `is` checks reference equality."
+    },
+    {
+        "language": "HTML",
+        "question": "Which HTML element is used for the largest heading?",
+        "choices": {
+            "A": "<h1>",
+            "B": "<heading>",
+            "C": "<h6>",
+            "D": "<title>"
+        },
+        "correct": "A",
+        "explanation": "`<h1>` represents the largest heading."
+    },
+    {
+        "language": "CSS",
+        "question": "Which property is used to change text color in CSS?",
+        "choices": {
+            "A": "color",
+            "B": "text-color",
+            "C": "font-color",
+            "D": "foreground"
+        },
+        "correct": "A",
+        "explanation": "The `color` property changes text color."
+    },
+    {
+        "language": "Java",
+        "question": "How do you declare a constant in Java?",
+        "choices": {
+            "A": "final int x = 10;",
+            "B": "const x = 10;",
+            "C": "static x = 10;",
+            "D": "let x = 10;"
+        },
+        "correct": "A",
+        "explanation": "The `final` keyword defines a constant in Java."
+    },
+    {
+        "language": "CSS",
+        "question": "Which property is used to change text color in CSS?",
+        "choices": {
+            "A": "color",
+            "B": "text-color",
+            "C": "font-color",
+            "D": "foreground"
+        },
+        "correct": "A",
+        "explanation": "The `color` property changes text color."
+    },
+    {
+        "language": "CSS",
+        "question": "Which property is used to change text color in CSS?",
+        "choices": {
+            "A": "color",
+            "B": "text-color",
+            "C": "font-color",
+            "D": "foreground"
+        },
+        "correct": "A",
+        "explanation": "The `color` property changes text color."
+    },
+    {
+        "language": "Java",
+        "question": "How do you declare a constant in Java?",
+        "choices": {
+            "A": "final int x = 10;",
+            "B": "const x = 10;",
+            "C": "static x = 10;",
+            "D": "let x = 10;"
+        },
+        "correct": "A",
+        "explanation": "The `final` keyword defines a constant in Java."
+    },
+    {
+        "language": "CSS",
+        "question": "Which property is used to change text color in CSS?",
+        "choices": {
+            "A": "color",
+            "B": "text-color",
+            "C": "font-color",
+            "D": "foreground"
+        },
+        "correct": "A",
+        "explanation": "The `color` property changes text color."
+    },
+    {
+        "language": "JavaScript",
+        "question": "What is the output of `console.log(2 + '2')` in JavaScript?",
+        "choices": {
+            "A": "22",
+            "B": "4",
+            "C": "NaN",
+            "D": "Error"
+        },
+        "correct": "A",
+        "explanation": "JavaScript converts numbers to strings when using `+` with a string."
+    },
+    {
+        "language": "Python",
+        "question": "What does `==` check in Python?",
+        "choices": {
+            "A": "Reference equality",
+            "B": "Value equality",
+            "C": "Both",
+            "D": "Neither"
+        },
+        "correct": "B",
+        "explanation": "`==` checks if values are equal, while `is` checks reference equality."
+    },
+    {
+        "language": "JavaScript",
+        "question": "What is the output of `console.log(2 + '2')` in JavaScript?",
+        "choices": {
+            "A": "22",
+            "B": "4",
+            "C": "NaN",
+            "D": "Error"
+        },
+        "correct": "A",
+        "explanation": "JavaScript converts numbers to strings when using `+` with a string."
+    },
+    {
+        "language": "Python",
+        "question": "What does `==` check in Python?",
+        "choices": {
+            "A": "Reference equality",
+            "B": "Value equality",
+            "C": "Both",
+            "D": "Neither"
+        },
+        "correct": "B",
+        "explanation": "`==` checks if values are equal, while `is` checks reference equality."
+    },
+    {
+        "language": "CSS",
+        "question": "Which property is used to change text color in CSS?",
+        "choices": {
+            "A": "color",
+            "B": "text-color",
+            "C": "font-color",
+            "D": "foreground"
+        },
+        "correct": "A",
+        "explanation": "The `color` property changes text color."
+    },
+    {
+        "language": "HTML",
+        "question": "Which HTML element is used for the largest heading?",
+        "choices": {
+            "A": "<h1>",
+            "B": "<heading>",
+            "C": "<h6>",
+            "D": "<title>"
+        },
+        "correct": "A",
+        "explanation": "`<h1>` represents the largest heading."
+    },
+    {
+        "language": "Python",
+        "question": "What does `==` check in Python?",
+        "choices": {
+            "A": "Reference equality",
+            "B": "Value equality",
+            "C": "Both",
+            "D": "Neither"
+        },
+        "correct": "B",
+        "explanation": "`==` checks if values are equal, while `is` checks reference equality."
+    },
+    {
+        "language": "JavaScript",
+        "question": "What is the output of `console.log(2 + '2')` in JavaScript?",
+        "choices": {
+            "A": "22",
+            "B": "4",
+            "C": "NaN",
+            "D": "Error"
+        },
+        "correct": "A",
+        "explanation": "JavaScript converts numbers to strings when using `+` with a string."
+    },
+    {
+        "language": "Java",
+        "question": "How do you declare a constant in Java?",
+        "choices": {
+            "A": "final int x = 10;",
+            "B": "const x = 10;",
+            "C": "static x = 10;",
+            "D": "let x = 10;"
+        },
+        "correct": "A",
+        "explanation": "The `final` keyword defines a constant in Java."
+    },
+    {
+        "language": "Java",
+        "question": "How do you declare a constant in Java?",
+        "choices": {
+            "A": "final int x = 10;",
+            "B": "const x = 10;",
+            "C": "static x = 10;",
+            "D": "let x = 10;"
+        },
+        "correct": "A",
+        "explanation": "The `final` keyword defines a constant in Java."
+    },
+    {
+        "language": "Java",
+        "question": "How do you declare a constant in Java?",
+        "choices": {
+            "A": "final int x = 10;",
+            "B": "const x = 10;",
+            "C": "static x = 10;",
+            "D": "let x = 10;"
+        },
+        "correct": "A",
+        "explanation": "The `final` keyword defines a constant in Java."
+    },
+    {
+        "language": "Java",
+        "question": "How do you declare a constant in Java?",
+        "choices": {
+            "A": "final int x = 10;",
+            "B": "const x = 10;",
+            "C": "static x = 10;",
+            "D": "let x = 10;"
+        },
+        "correct": "A",
+        "explanation": "The `final` keyword defines a constant in Java."
+    },
+    {
+        "language": "Java",
+        "question": "How do you declare a constant in Java?",
+        "choices": {
+            "A": "final int x = 10;",
+            "B": "const x = 10;",
+            "C": "static x = 10;",
+            "D": "let x = 10;"
+        },
+        "correct": "A",
+        "explanation": "The `final` keyword defines a constant in Java."
+    },
+    {
+        "language": "Java",
+        "question": "How do you declare a constant in Java?",
+        "choices": {
+            "A": "final int x = 10;",
+            "B": "const x = 10;",
+            "C": "static x = 10;",
+            "D": "let x = 10;"
+        },
+        "correct": "A",
+        "explanation": "The `final` keyword defines a constant in Java."
+    },
+    {
+        "language": "CSS",
+        "question": "Which property is used to change text color in CSS?",
+        "choices": {
+            "A": "color",
+            "B": "text-color",
+            "C": "font-color",
+            "D": "foreground"
+        },
+        "correct": "A",
+        "explanation": "The `color` property changes text color."
+    },
+    {
+        "language": "Python",
+        "question": "What does `==` check in Python?",
+        "choices": {
+            "A": "Reference equality",
+            "B": "Value equality",
+            "C": "Both",
+            "D": "Neither"
+        },
+        "correct": "B",
+        "explanation": "`==` checks if values are equal, while `is` checks reference equality."
+    },
+    {
+        "language": "CSS",
+        "question": "Which property is used to change text color in CSS?",
+        "choices": {
+            "A": "color",
+            "B": "text-color",
+            "C": "font-color",
+            "D": "foreground"
+        },
+        "correct": "A",
+        "explanation": "The `color` property changes text color."
+    },
+    {
+        "language": "JavaScript",
+        "question": "What is the output of `console.log(2 + '2')` in JavaScript?",
+        "choices": {
+            "A": "22",
+            "B": "4",
+            "C": "NaN",
+            "D": "Error"
+        },
+        "correct": "A",
+        "explanation": "JavaScript converts numbers to strings when using `+` with a string."
+    },
+    {
+        "language": "Java",
+        "question": "How do you declare a constant in Java?",
+        "choices": {
+            "A": "final int x = 10;",
+            "B": "const x = 10;",
+            "C": "static x = 10;",
+            "D": "let x = 10;"
+        },
+        "correct": "A",
+        "explanation": "The `final` keyword defines a constant in Java."
+    },
+    {
+        "language": "Python",
+        "question": "What does `==` check in Python?",
+        "choices": {
+            "A": "Reference equality",
+            "B": "Value equality",
+            "C": "Both",
+            "D": "Neither"
+        },
+        "correct": "B",
+        "explanation": "`==` checks if values are equal, while `is` checks reference equality."
+    },
+    {
+        "language": "HTML",
+        "question": "Which HTML element is used for the largest heading?",
+        "choices": {
+            "A": "<h1>",
+            "B": "<heading>",
+            "C": "<h6>",
+            "D": "<title>"
+        },
+        "correct": "A",
+        "explanation": "`<h1>` represents the largest heading."
+    },
+    {
+        "language": "Java",
+        "question": "How do you declare a constant in Java?",
+        "choices": {
+            "A": "final int x = 10;",
+            "B": "const x = 10;",
+            "C": "static x = 10;",
+            "D": "let x = 10;"
+        },
+        "correct": "A",
+        "explanation": "The `final` keyword defines a constant in Java."
+    },
+    {
+        "language": "CSS",
+        "question": "Which property is used to change text color in CSS?",
+        "choices": {
+            "A": "color",
+            "B": "text-color",
+            "C": "font-color",
+            "D": "foreground"
+        },
+        "correct": "A",
+        "explanation": "The `color` property changes text color."
+    }
+]
