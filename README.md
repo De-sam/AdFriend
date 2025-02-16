@@ -1,4 +1,4 @@
-Here's a **professional and well-structured** `README.md` for your **AdFriend** Chrome extension. 🚀  
+
 
 ---
 
